@@ -6,13 +6,13 @@ export default function Home() {
   const [prompt, setPrompt] = useState("");
   const [result, setResult] = useState<any>(null);
   const [loading, setLoading] = useState(false);
-
+  const API_URL = process.env.NEXT_PUBLIC_API_URL;
   const generateApp = async () => {
     try {
       setLoading(true);
 
       const response = await fetch(
-        "http://127.0.0.1:8000/generate",
+        `${API_URL}/generate`,
         {
           method: "POST",
           headers: {
