@@ -1,0 +1,27 @@
+{
+  "normal": [
+    "Build a CRM with contacts and payments",
+    "Build an LMS for students and teachers",
+    "Build a food delivery application",
+    "Build a hospital management system",
+    "Build an HR management platform",
+    "Build a project management tool",
+    "Build a social networking app",
+    "Build a SaaS analytics dashboard",
+    "Build an ecommerce platform",
+    "Build a job portal"
+  ],
+
+  "edge_cases": [
+    "Build CRM",
+    "Build app",
+    "Users can access admin-only pages",
+    "Create payments without users",
+    "Build dashboard without authentication",
+    "Admin has no permissions",
+    "Create ecommerce without products",
+    "Build hospital app without patients",
+    "Teachers and students are the same role",
+    "Build something like Facebook"
+  ]
+}

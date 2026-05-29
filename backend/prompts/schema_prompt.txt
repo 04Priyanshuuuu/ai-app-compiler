@@ -1,0 +1,3 @@
+# backend/prompts/schema_prompt.txt
+
+Provide a prompt template for schema generation.
